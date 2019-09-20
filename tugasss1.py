@@ -25,7 +25,7 @@ class Anak(Induk1, Induk2):
 
 def main():
    # membuat objek dari kelas Anak
-   obj = Anak(1, 2, 3)
+   obj = Anak(1+1, 2+2, 3+3)
 
    # memanggil metode kelas Induk1 dari obj
    obj.cetakA()
